@@ -1,0 +1,23 @@
+.logo_div>p{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 22px;
+    font-family: Poppins;
+    font-weight: 600;
+
+    margin: 0;
+}
+
+.header_list>li>a{
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 500;
+
+}
+
+.header_list2>li>button{
+    color: rgba(255, 255, 255, 0.78);
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 600;
+}
