@@ -21,3 +21,24 @@
     font-family: Poppins;
     font-weight: 600;
 }
+
+.logo_div{
+    display: flex;
+    gap: 21px;
+}
+
+.header_list{
+    display: flex;
+    width: 431px;
+    justify-content: space-around;
+}
+.categories{
+    display:flex;
+    align-items: center;
+    margin: 0;
+}
+
+.header_list2{
+    display: flex;
+    width
+}
