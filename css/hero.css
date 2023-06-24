@@ -4,6 +4,8 @@ h1{
     font-family: Poppins;
     font-weight: 500;
     line-height: 140%;
+    padding-bottom: 30px;
+    margin: 0;
 }
 
 .hero>.container>p{
@@ -11,6 +13,7 @@ h1{
     font-size: 18px;
     font-family: Poppins;
     line-height: 30px;
+    margin: 0;
 }
 
 .input_form>input{
@@ -24,4 +27,14 @@ h1{
     font-size: 16px;
     font-family: Poppins;
     font-weight: 600;
+}
+
+.hero{
+    background-image: url(../img/background_header.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right ;
+
+    padding-top: 80px;
+
 }
