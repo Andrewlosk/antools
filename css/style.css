@@ -1,5 +1,7 @@
 @import "./header.css";
 @import "./hero.css";
+@import "./cards.css";
+@import "./brands.css";
 
 body{
     background-color: #283036;

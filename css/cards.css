@@ -1,0 +1,77 @@
+.cards>.container>h2{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 48px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 130%;
+
+    text-align: center;
+    margin: 0;
+    margin-bottom: 25px;
+
+}
+
+.cards_p_head{
+    color: rgba(255, 255, 255, 0.55);
+
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 30px;
+
+    margin: 0;
+    text-align: center;
+}
+
+.li_name{
+    color: rgba(255, 255, 255, 0.78);
+    font-size: 24px;
+    font-family: Poppins;
+    font-weight: 500;
+
+    margin: 0;
+}
+
+
+.li_cost{
+    color: rgba(255, 165, 55, 0.55);
+    font-size: 18px;
+    font-family: Poppins;
+
+    margin: 0;
+}
+
+.desc_cards{
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 16px;
+    font-family: Poppins;
+    line-height: 30px;
+
+    margin: 0;
+}
+
+.li_btn_cards{
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 600;
+
+    background:none;
+    border: none;
+}
+
+.btn_solo_cards{
+    color: #FF6E30;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 500;
+
+    background: none;
+
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+
+
+    padding: 17px 38px;
+
+}
