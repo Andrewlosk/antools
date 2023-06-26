@@ -1,0 +1,19 @@
+.input_sec>.container>h2{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 48px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 130%;
+
+    margin: 0;
+}
+
+.input_sec>.container>p{
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 30px;
+
+    margin: 0;
+}

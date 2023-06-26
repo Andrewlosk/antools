@@ -1,0 +1,27 @@
+.newcomer_right_list>li>h2{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 48px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 130%;
+}
+
+.newcomer_right_list>li>p{
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.newcomer_right_list>li>button{
+    color: #FFF;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 500;
+
+    border-radius: 8px;
+    background: #FF6E30;
+    padding: 15px 40px;
+
+}
