@@ -1,0 +1,42 @@
+.logo_div_footer{
+    display: flex;
+    gap: 21px;
+    align-items: center;
+}
+
+.logo_div_footer>p {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 22px;
+    font-family: Poppins;
+    font-weight: 600;
+
+    margin: 0;
+}
+
+.h3_solo_footer{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+.p_solo_footer{
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 14px;
+    font-family: Poppins;
+    line-height: 25px;
+}
+
+.h3_joint_footer{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 22px;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.p_joint_footer {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 500;
+}
