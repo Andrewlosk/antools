@@ -1,4 +1,4 @@
-.logo_div>p{
+.logo_div{
     color: rgba(255, 255, 255, 0.90);
     font-size: 22px;
     font-family: Poppins;
@@ -15,12 +15,12 @@
 
 }
 
-.header_list2>li>button{
+/* .header_list2>li>button{
     color: #FDF5FF;
     font-size: 16px;
     font-family: Poppins;
     font-weight: 600;
-}
+} */
 
 .logo_div{
     display: flex;
@@ -31,6 +31,7 @@
     display: flex;
     width: 431px;
     justify-content: space-between;
+    align-items:center;
 }
 .categories{
     display:flex;
@@ -58,31 +59,42 @@
     background: #FF6E30;
 
     padding: 12px 23px;
-    width:  118px;
+
 
     border: none;
 }
 
-.header_btn_1{
+.header_list2>a{
+    color: rgba(255, 255, 255, 0.78);
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 600;
 
-    border: none;
-    background: none;
+
     padding: 0;
 }
 
 .left_group_header{
     display: flex;
-    width: 910px;
-    justify-content: space-between;
+    gap: 257px;
+
     align-items:center;
 
 }
 
 .all_group_header{
     display: flex;
-    width: 1400px;
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
 
+}
+
+
+.categories::after{
+    content: url(../img/chevron-down.svg);
+    bottom: 5px;
+    height: 16px;
+    margin-left: 4px;
+    
 }

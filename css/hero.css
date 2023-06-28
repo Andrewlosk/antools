@@ -8,6 +8,10 @@ h1{
     margin: 0;
 }
 
+h1>span{
+    color:#FF6E30;
+}
+
 .hero>.container>p{
     color: rgba(255, 255, 255, 0.55);
     font-size: 18px;
@@ -42,7 +46,7 @@ h1{
 }
 .input_form{
     border-radius: 15px;
-    background: #283036;
+    width: 497px;
 
 }
 
