@@ -8,12 +8,12 @@
 @import "footer.css";
 
 body{
-    background-color: #283036;
+    background: #1E252B;
 }
 
 .list{
     list-style: none;
-    padding: 0;
+    /* padding: 0; */
 }
 
 .link{
