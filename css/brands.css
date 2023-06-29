@@ -3,6 +3,27 @@
     font-size: 24px;
     font-family: Poppins;
     font-weight: 500;
+    text-align: center;
 
     margin: 0;
+    margin-bottom: 56px;
+}
+
+.brands_div{
+    border-radius: 25px;
+    background: rgba(44, 53, 61, 0.20);
+    backdrop-filter: blur(25px);
+    padding: 55px 82px;
+}
+
+.list_brands{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    justify-content: space-between;
+
+}
+
+.brands{
+    padding-bottom: 200px;
 }

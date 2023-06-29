@@ -123,7 +123,7 @@
     justify-content: space-between;
 }
 
-.cards_content{
+.cards_wrap{
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -146,4 +146,8 @@
     margin: 0 auto;
 
 
+}
+
+.cards{
+    padding-bottom: 200px;
 }

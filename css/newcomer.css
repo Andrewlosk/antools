@@ -1,9 +1,11 @@
-.newcomer_right_list>li>h2{
+.title_newcomer{
     color: rgba(255, 255, 255, 0.90);
     font-size: 48px;
     font-family: Poppins;
     font-weight: 500;
     line-height: 130%;
+    margin: 0;
+    margin-bottom: 30px;
 }
 
 .newcomer_right_list>li>p{
@@ -12,6 +14,8 @@
     font-family: Poppins;
     font-weight: 500;
     line-height: 30px;
+    margin: 0;
+    margin-bottom: 60px;
 }
 
 .newcomer_right_list>li>button{
@@ -24,4 +28,17 @@
     background: #FF6E30;
     padding: 15px 40px;
 
+}
+
+.newcomer_right_list{
+    padding: 0;
+    width: 401px;
+
+}
+
+.cards_wrap2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 800px;
 }
