@@ -42,3 +42,7 @@
     gap: 10px;
     width: 800px;
 }
+
+.newcomer_flex{
+    display: flex;
+}
