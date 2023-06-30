@@ -144,7 +144,14 @@
 
     display: flex;
     margin: 0 auto;
+    transition: 1.3s;
 
+
+}
+
+.bottom_btn_cards:hover{
+    background: #FF6E30;
+    color: #FFF;
 
 }
 

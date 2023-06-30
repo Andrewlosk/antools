@@ -1,4 +1,4 @@
-.plate>h2{
+.slider_plate_title{
     color: rgba(255, 253, 253, 0.78);
     font-size: 26px;
     font-family: Poppins;
@@ -7,9 +7,10 @@
 
     margin: 0;
     margin-bottom: 7px;
+    
 }
 
-.plate>p{
+.slider_plate_p{
     color: rgba(255, 253, 253, 0.55);
     font-size: 16px;
     font-family: Poppins;
@@ -18,11 +19,14 @@
 }
 
 .plate{
+
+    padding: 10px 23px 16px 22px;
     width: 265px;
-    height: 91px;
     border-radius: 8px;
     background: rgba(40, 48, 54, 0.20);
     backdrop-filter: blur(25px);
+
+
 }
 
 .slider_content>p{

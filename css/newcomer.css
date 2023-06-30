@@ -40,9 +40,17 @@
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    width: 800px;
+    width: 590px;
+    margin: 0;
 }
 
 .newcomer_flex{
     display: flex;
+    gap: 192px;
+    
+}
+
+.cards_wrap2>li{
+    width: 288px;
+    margin-bottom: 50px;
 }
