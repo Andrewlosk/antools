@@ -34,3 +34,11 @@ input{
     height: 0.5px;
     border:none;
 }
+.btn_animation1{
+    transition: 1.3s;
+    border: none;
+}
+
+.btn_animation1:hover{
+    transform: scale(1.1);
+}
