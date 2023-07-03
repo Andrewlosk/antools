@@ -108,7 +108,21 @@
 .cards_licard:hover{
     background: rgba(40, 48, 54, 0.60);
     backdrop-filter: blur(25px);
-    transform: scale(1.1);
+    transform: scale(1.03) translate(12px, -12px);
+}
+
+.heart_svg_card{
+    padding: 7px;
+    border-radius: 8px;
+    transition: 1.3s;
+    
+}
+
+.heart_svg_card:hover,
+.heart_svg_card:hover path{
+    fill: #FD3B41;
+    background: #283036;
+    box-shadow: 0px 5px 10px -3px rgba(18, 18, 18, 0.15);
 }
 
 .list_card{
