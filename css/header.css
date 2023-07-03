@@ -7,7 +7,7 @@
     margin: 0;
 }
 
-.header_list>li>a{
+.header_navli{
     color: rgba(255, 255, 255, 0.55);
     font-size: 16px;
     font-family: Poppins;
@@ -65,7 +65,7 @@
     border: none;
 }
 
-.header_list2>a{
+.header2_link_1{
     color: rgba(255, 255, 255, 0.78);
     font-size: 16px;
     font-family: Poppins;

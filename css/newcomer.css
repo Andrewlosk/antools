@@ -8,7 +8,7 @@
     margin-bottom: 30px;
 }
 
-.newcomer_right_list>li>p{
+.newcomer_right_p{
     color: rgba(255, 255, 255, 0.55);
     font-size: 18px;
     font-family: Poppins;
@@ -18,7 +18,7 @@
     margin-bottom: 60px;
 }
 
-.newcomer_right_list>li>button{
+.newcomer_right_btn{
     color: #FFF;
     font-size: 18px;
     font-family: Poppins;

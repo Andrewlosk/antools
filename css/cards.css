@@ -96,11 +96,19 @@
 
 
 
-.list_card>li{
+.cards_licard{
     padding: 33px;
     width: 392px;
     border-radius: 15px;
     margin-bottom: 100px;
+    transition: 1.3s;
+}
+
+
+.cards_licard:hover{
+    background: rgba(40, 48, 54, 0.60);
+    backdrop-filter: blur(25px);
+    transform: scale(1.1);
 }
 
 .list_card{
