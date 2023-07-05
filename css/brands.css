@@ -18,6 +18,7 @@
   background: rgba(44, 53, 61, 0.2);
 
   padding: 55px 82px;
+  overflow: hidden;
 }
 
 .list_brands {
@@ -52,3 +53,17 @@
   clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 50%);
   rotate: 120deg;
 } */
+
+.brands_div::after{
+  content: "";
+  position: absolute;
+  width: 159px;
+  height: 159px;
+  top: -75px;
+  left: -75px;
+
+
+  border-radius: 159px;
+  background: rgba(255, 72, 66, 0.40);
+  filter: blur(50px);
+}

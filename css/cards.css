@@ -101,6 +101,9 @@
     width: 392px;
     border-radius: 15px;
     margin-bottom: 100px;
+
+    position: relative;
+    overflow: hidden;
     transition: 1.3s;
 }
 
@@ -109,6 +112,22 @@
     background: rgba(40, 48, 54, 0.60);
     backdrop-filter: blur(25px);
     transform: scale(1.03) translate(12px, -12px);
+}
+
+.cards_licard:hover::after{
+    content: "";
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    top: 0;
+    right: 0;
+
+
+    border-radius: 65px;
+    background: rgba(255, 110, 48, 0.60);
+    filter: blur(45px);
+
+
 }
 
 .heart_svg_card{
@@ -169,6 +188,9 @@
     transition: 1.3s;
 
 
+
+
+
 }
 
 .bottom_btn_cards:hover{
@@ -179,4 +201,15 @@
 
 .cards{
     padding-bottom: 200px;
+}
+
+.cards_visit_btn{
+    border-radius: 8px;
+    padding: 11px 34px;
+    transition: 1.3s;
+}
+
+.cards_visit_btn:hover{
+    background: #FF6E30;
+
 }

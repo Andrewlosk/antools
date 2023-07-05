@@ -28,6 +28,7 @@
     background: #FF6E30;
     padding: 15px 40px;
 
+    border: none;
 }
 
 .newcomer_right_list{
@@ -50,7 +51,42 @@
     
 }
 
-.cards_wrap2>li{
-    width: 288px;
+
+
+
+.newcomer_card{
+    width: 280px;
     margin-bottom: 50px;
+    padding: 28px 21px;
+
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    transition: 1.3s;
+}
+
+
+
+
+
+.newcomer_card:hover{
+    background: rgba(40, 48, 54, 0.60);
+    backdrop-filter: blur(60px);
+    transform: scale(1.03) translate(12px, -12px);
+}
+
+.newcomer_card:hover::after{
+    content: "";
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    top: -35px;
+    right: -40px;
+
+
+    border-radius: 65px;
+    background: rgba(255, 110, 48, 0.60);
+    filter: blur(45px);
+
+
 }
