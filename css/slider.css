@@ -70,3 +70,7 @@
 .slider_sec {
   padding-bottom: 250px;
 }
+
+.slider_nav:hover{
+  cursor: pointer;
+}
