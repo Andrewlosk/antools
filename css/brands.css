@@ -34,25 +34,7 @@
 
 
 
-/* .brands_div::before {
-  content: "";
-  width: 159px;
-  height: 159px;
-  border-radius: 50%;
- 
-  background: rgb(2, 0, 36);
-  background: radial-gradient(
-    circle,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(255, 72, 66, 0.4) 100%
-  );
-  backdrop-filter: blur(25px);
-  position: absolute;
-  top: -70px;
-  left: -70px;
-  clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 50%);
-  rotate: 120deg;
-} */
+
 
 .brands_div::after{
   content: "";
